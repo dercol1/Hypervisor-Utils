@@ -20,7 +20,7 @@ bash
 
 ./getkclivm.py --provider \<provider\> --url \<url\> --username \<user\> --password \<password\>
 
-# Example for Proxmox:
+Example for Proxmox:
 ./getkclivm.py --provider proxmox --url https://proxmox.example.com:8006 --username user@pve --password 'password'
 
 2. getovirtvm.py
