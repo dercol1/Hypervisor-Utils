@@ -13,11 +13,12 @@ Features
 
 Scripts
 The repository contains three main scripts:
+
 1. getkclivm.py
 Main script supporting multiple hypervisors with advanced features:
 bash
 
-./getkclivm.py --provider <provider> --url <url> --username <user> --password <password>
+./getkclivm.py --provider \<provider\> --url \<url\> --username \<user\> --password \<password\>
 
 # Example for Proxmox:
 ./getkclivm.py --provider proxmox --url https://proxmox.example.com:8006 --username user@pve --password 'password'
