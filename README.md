@@ -16,7 +16,7 @@ The repository contains three main scripts:
 
 1. getkclivm.py
 Main script supporting multiple hypervisors with advanced features:
-bash
+```bash
 
 ./getkclivm.py --provider \<provider\> --url \<url\> --username \<user\> --password \<password\>
 
