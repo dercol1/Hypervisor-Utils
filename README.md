@@ -18,39 +18,35 @@ The repository contains three main scripts:
 Main script supporting multiple hypervisors with advanced features:
 ```bash
 ./getkclivm.py --provider \<provider\> --url \<url\> --username \<user\> --password \<password\>
-```bash
+```
 
 Example for Proxmox:
+```bash
 ./getkclivm.py --provider proxmox --url https://proxmox.example.com:8006 --username user@pve --password 'password'
-
+```
 2. getovirtvm.py
 Specialized script for oVirt/RHV environments:
-bash
-
+```bash
 ./getovirtvm.py --url https://ovirt.example.com/ovirt-engine/api --username user@domain --password 'password'
-
+```
 3. getproxmoxvm.py
 Dedicated script for Proxmox environments:
-bash
-
+```bash
 ./getproxmoxvm.py --host proxmox.example.com --username user@pve --password 'password'
-
+```
 Installation
 
-    Create and activate a Python virtual environment:
-
-bash
+```bash
+#Create and activate a Python virtual environment:
 
 python3 -m venv python-venv
 source python-venv/bin/activate  # Linux/Mac
 python-venv\Scripts\activate     # Windows
 
-    Install required packages:
-
-bash
+#Install required packages:
 
 pip install pandas tabulate proxmoxer requests ovirtsdk4 pyvmomi
-
+```
 Usage
 Interactive Navigation
 
